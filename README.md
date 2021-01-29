@@ -1,8 +1,4 @@
-# Vitta-Academia
-
-<h1>Vitta Academia</h1>
-
-# Preview
+# Vitta Academia
 
 <h1>
     <img src="/src/assets/apresentacao.gif">
@@ -24,6 +20,17 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
 
-    $ git clone 
+    # Clonar repositório
+    $ git clone https://github.com/JonatasAR1/Vitta-Academia.git
+
+    # Entrar no diretório
+    $ cd Vitta-Academia
+
+    # Instalar as dependências
+    $ yarn install
+
+    # Iniciar o projeto
+    $ yarn start
+
 
 ```
