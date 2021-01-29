@@ -16,7 +16,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Css
 - JavaScript
 
-## Como baixar o projeto
+## 💾 Como baixar o projeto
 
 ```bash
 
