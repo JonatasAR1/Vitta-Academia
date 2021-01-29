@@ -22,7 +22,7 @@ html,body{
 
 header{
     position: relative;
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -94,6 +94,7 @@ header{
 
 .sobre-banner{
     width: 60%;
+    padding: 0 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,14 +157,14 @@ section.sessao-oferecemos{
 }
 
 .box-wrapper .fas{
-    font-size: 9rem;
+    font-size: 8rem;
     color: #0091ea;
 }
 
 .box-wrapper h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: var(--font-secundary);
-    color: #262626;
+    color:#262626;
 }
 
 .box-wrapper p{
@@ -198,7 +199,7 @@ section.sessao-oferecemos{
 
 .contato{
     position: absolute;
-    top: 50%; 
+    top: 55%; 
     left: 50%; 
     transform:translate(-50%, -50%);
     text-align: center;
@@ -223,4 +224,132 @@ section.sessao-oferecemos{
     font-size: 1rem;
     font-family: var(--font-secundary);
     color: white;
+}
+
+@media screen and (max-width: 800px){
+    .menu-link{
+        font-size: 0.8rem;
+    }
+    
+    .banner h1{
+        font-size: 4rem;
+    }
+
+    .sessao-sobre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-sobre{
+        display: none;
+    }
+
+    .sobre-banner{
+        width: 100%;
+        display: flex;
+    }
+
+    .sobre-banner-wrapper h1{
+        font-size: 3rem;
+    }
+    
+    .sobre-banner-wrapper p{
+        margin-top: 3rem;
+        line-height: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .sessao-header{
+        padding: 6rem 0;
+    }
+    
+    .sessao-header h1{
+        font-size: 4rem;
+    }
+    
+    .oferecemos{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-wrapper{
+        padding: 0 2rem;
+    }
+    
+    .box-wrapper .fas{
+        font-size: 6rem;
+    }
+    
+    .box-wrapper h2{
+        font-size: 1.5rem;
+    }
+    
+    .box-wrapper p{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .sobre-banner-wrapper h1{
+        font-size: 2rem;
+    }
+    
+    .sobre-banner-wrapper p{
+        margin-top: 3rem;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .sessao-header{
+        display: flex;
+        justify-content: center;
+        padding: 4rem 0;
+        color:#0091ea;
+    }
+
+    .sessao-header h1{
+        font-size: 2rem;
+    }
+
+    .oferecemos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-wrapper{
+        margin: 2% 0;
+        padding: 0 2rem;
+    }
+    
+    .box-wrapper .fas{
+        font-size: 4rem;
+        color: #0091ea;
+    }
+    
+    .box-wrapper h2{
+        font-size: 1.5rem;
+    }
+    
+    .box-wrapper p{
+        font-size: 0.9rem;
+    }
+    
+    .contato-wrapper{
+        margin: 5% 0;
+    }
+    
+    .contato-wrapper .fas{
+        font-size: 2rem;
+    }
+    
+    .contato-wrapper h1{
+        font-size: 1.2rem;
+    }
+    
+    .contato-wrapper p{
+        font-size: 0.8rem;
+    }
 }

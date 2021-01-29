@@ -6,7 +6,7 @@
 
 ## 📋 Sobre
 
-O projeto **Vitta Academia** é uma landing page que foi criado com o propósito de colocar em prática todo conteudo que estava estudando durante o curso que estou fazendo.  
+O projeto **Vitta Academia** é uma landing page responsiva que foi criada com o propósito de colocar em prática todo conteudo que estava estudando durante o curso que estava exercendo.  
 
 ## 🚀 Tecnologias Utilizadas
 
